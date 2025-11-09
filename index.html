@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>立冬礼物</title>
+    <title>生日快乐</title>
     <style>
         * {
             margin: 0;
@@ -138,7 +138,7 @@
     <!-- 初始弹窗 -->
     <div class="initial-modal" id="initialModal">
         <div class="modal-content">
-            <h2>你有一份立冬礼物，确定要打开吗？</h2>
+            <h2>你有一条生日祝福，确定要打开吗？</h2>
             <button class="modal-confirm" id="confirmBtn">确定</button>
         </div>
     </div>
@@ -146,10 +146,10 @@
     <script>
         // 核心数据
         const blessings = [
-            "天天开心", "别太累啦", "保持好心情", "我想你了", "梦想成真",
-            "别熬夜", "平安喜乐", "好好休息", "今天开心吗", "保持微笑呀",
-            "相信自己", "天冷了，多穿点衣服", "金榜题名", "烦恼都消失", "多喝水哦",
-            "记得吃水果", "顺顺利利", "元气满满", "期待下一次见面", "你超棒的"
+            "天天开心", "别太累啦", "保持好心情", "所求皆如愿", "梦想成真",
+            "常欢喜", "平安喜乐", "好好休息", "今天开心吗", "保持微笑呀",
+            "相信自己", "有趣有盼", "万事胜意", "烦恼都消失", "多喝水哦",
+            "多喜乐", "顺顺利利", "元气满满", "长安宁", "你超棒的"
         ];
         const bgColors = ['#fff9e8', '#f0f8fb', '#fef7fb', '#f5fafe', '#faf6ed'];
         
@@ -213,7 +213,7 @@
         function showBigModal() {
             const bigModal = document.createElement('div');
             bigModal.className = 'big-modal';
-            bigModal.innerHTML = `<p>备考如果心情不好，找我聊聊天吧😊</p>`;
+            bigModal.innerHTML = `<p>生日快乐😊</p>`;
             document.body.appendChild(bigModal);
         }
 
@@ -227,4 +227,5 @@
         }
     </script>
 </body>
+
 </html>
